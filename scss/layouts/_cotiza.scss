@@ -1,0 +1,50 @@
+body{
+    background-color: $main-color;
+  }
+
+  
+  h2{
+      color:$dark-color ;
+      text-align: center;
+      font-size: italic;
+      font-size: 40px;
+  }
+  
+  h3{
+    color:$dark-color ;
+    text-align: center;
+    font-size: italic;
+    font-size: 30px;
+  }
+  
+   img{
+      width: 60%;
+      height: 60%;
+      margin: auto;
+      display: block;
+      object-fit: cover;
+      
+  }
+  
+  .texto{
+  font-size: 20;
+  text-align: center;
+  
+  }
+  
+  .logo{
+      width: 35%;
+      height: 35%;
+  
+  }
+  
+  
+ 
+  
+
+  
+  .imagen{
+    width: 65%;
+    height: 65%;
+    object-fit: cover;
+  }

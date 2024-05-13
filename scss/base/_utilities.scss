@@ -1,0 +1,15 @@
+@mixin titulos ($v1, $v2, $v3,$v4){
+    color: $v1;
+    text-align: $v2;
+    font-style: $v3;
+    font-size: $v4;
+
+}
+
+h2{
+    @include titulos(#283747, center, italic, 80px);
+}
+
+h3{
+    @include titulos(#283747, center, italic, 30px);
+}

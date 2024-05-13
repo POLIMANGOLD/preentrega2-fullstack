@@ -1,88 +1,35 @@
-
-body{
-  background-color: #ebf4fa;
-}
-.nav_menu{
-display: flex;
-justify-content: space-between;
-width: 100%;
-align-items: center;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.nav_list {
-  padding: 30px;
-  display: flex;
-  gap: 10px;
-  transition: 0.4s;
-  
-}
-
-.nav_item a {
- font-size: 20px;
- color:#283747;
- padding: 10px;
- transition: 0.4s;
-}
-
-.nav_item a:hover{
-  background-color: #ebf4fa;
-  color: #283747 ;;
-}
-
-h2{
-    color:#283747 ;
-    text-align: center;
-    font-size: italic;
-    font-size: 40px;
-}
-
-h3{
-  color:#283747 ;
+h2 {
+  color: #283747;
   text-align: center;
-  font-size: italic;
+  font-style: italic;
+  font-size: 80px;
+}
+
+h3 {
+  color: #283747;
+  text-align: center;
+  font-style: italic;
   font-size: 30px;
 }
 
- img{
-    width: 60%;
-    height: 60%;
-    margin: auto;
-    display: block;
-    object-fit: cover;
-    
+.banner {
+  width: 100%;
+  height: 300px;
+  position: relative;
 }
-
-.texto{
-font-size: 20;
-text-align: center;
-
-}
-
-.logo{
-    width: 35%;
-    height: 35%;
-
-}
-
-
-footer {
-  background: #ebf4fa;
-}
-
-.banner{
-width: 100%;
-height: 300px;
-position: relative;
-}
-
-.banner img{
+.banner img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-
-.banner div{
-  background-color: #000000af;
+.banner div {
+  background-color: rgba(0, 0, 0, 0.6862745098);
   position: absolute;
   width: 100%;
   height: 100%;
@@ -91,14 +38,246 @@ position: relative;
   align-items: center;
   justify-content: center;
 }
-
-.banner div h1{
+.banner h1 {
   font-size: 60px;
-  color:#f7f8fa ;
+  color: #f7f8fa;
 }
 
-.imagen{
+footer {
+  background: #f7f8fa;
+}
+
+.nav_menu {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+.nav_menu .nav_list {
+  padding: 30px;
+  display: flex;
+  gap: 10px;
+  transition: 0.4s;
+}
+.nav_menu a {
+  font-size: 20px;
+  color: #283747;
+  padding: 10px;
+  transition: 0.4s;
+}
+.nav_menu a:hover {
+  background-color: #f7f8fa;
+  color: #283747;
+}
+
+body {
+  background-color: #f7f8fa;
+}
+
+h2 {
+  color: #283747;
+  text-align: center;
+  font-size: italic;
+  font-size: 40px;
+}
+
+h3 {
+  color: #283747;
+  text-align: center;
+  font-size: italic;
+  font-size: 30px;
+}
+
+img {
+  width: 60%;
+  height: 60%;
+  margin: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.texto {
+  font-size: 20;
+  text-align: center;
+}
+
+.logo {
+  width: 35%;
+  height: 35%;
+}
+
+.imagen {
   width: 65%;
   height: 65%;
   object-fit: cover;
 }
+
+body {
+  background-color: #f7f8fa;
+}
+
+h2 {
+  color: #283747;
+  text-align: center;
+  font-size: italic;
+  font-size: 40px;
+}
+
+h3 {
+  color: #283747;
+  text-align: center;
+  font-size: italic;
+  font-size: 30px;
+}
+
+img {
+  width: 60%;
+  height: 60%;
+  margin: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.texto {
+  font-size: 20;
+  text-align: center;
+}
+
+.logo {
+  width: 35%;
+  height: 35%;
+}
+
+.imagen {
+  width: 65%;
+  height: 65%;
+  object-fit: cover;
+}
+
+body {
+  background-color: #f7f8fa;
+}
+
+h2 {
+  color: #283747;
+  text-align: center;
+  font-size: italic;
+  font-size: 40px;
+}
+
+h3 {
+  color: #283747;
+  text-align: center;
+  font-size: italic;
+  font-size: 30px;
+}
+
+img {
+  width: 60%;
+  height: 60%;
+  margin: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.texto {
+  font-size: 20;
+  text-align: center;
+}
+
+.logo {
+  width: 35%;
+  height: 35%;
+}
+
+.imagen {
+  width: 65%;
+  height: 65%;
+  object-fit: cover;
+}
+
+body {
+  background-color: #f7f8fa;
+}
+
+h2 {
+  color: #283747;
+  text-align: center;
+  font-size: italic;
+  font-size: 40px;
+}
+
+h3 {
+  color: #283747;
+  text-align: center;
+  font-size: italic;
+  font-size: 30px;
+}
+
+img {
+  width: 60%;
+  height: 60%;
+  margin: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.texto {
+  font-size: 20;
+  text-align: center;
+}
+
+.logo {
+  width: 35%;
+  height: 35%;
+}
+
+.imagen {
+  width: 65%;
+  height: 65%;
+  object-fit: cover;
+}
+
+body {
+  background-color: #f7f8fa;
+}
+
+h2 {
+  color: #283747;
+  text-align: center;
+  font-size: italic;
+  font-size: 40px;
+}
+
+h3 {
+  color: #283747;
+  text-align: center;
+  font-size: italic;
+  font-size: 30px;
+}
+
+img {
+  width: 60%;
+  height: 60%;
+  margin: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.texto {
+  font-size: 20;
+  text-align: center;
+}
+
+.logo {
+  width: 35%;
+  height: 35%;
+}
+
+.imagen {
+  width: 65%;
+  height: 65%;
+  object-fit: cover;
+}
+
+/*# sourceMappingURL=style.css.map */
